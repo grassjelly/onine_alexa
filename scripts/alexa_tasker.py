@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+#CODE REFERENCE: https://www.pubnub.com/docs/python/pubnub-python-sdk
+
 from pubnub.callbacks import SubscribeCallback
 from pubnub.enums import PNStatusCategory
 from pubnub.pnconfiguration import PNConfiguration
