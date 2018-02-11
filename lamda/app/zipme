@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+echo "Creating onine's zip file."
+
+if [ -f onine.zip ]; then
+    rm Onine.zip
+fi
+
+zip -r Onine.zip index.js package.json node_modules
+
+echo "Zip file created."

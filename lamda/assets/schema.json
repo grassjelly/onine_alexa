@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "FeedFishIntent"
+    },
+    {
+      "intent": "GetSodaIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+FeedFishIntent feed fish
+FeedFishIntent feed the fish
+FeedFishIntent to feed the fish
+GetSodaIntent get a soda
+GetSodaIntent get me a soda
+GetSodaIntent to get me a soda

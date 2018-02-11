@@ -1,0 +1,9 @@
+{
+  "name": "onine_alexa",
+  "description": "Onine Alexa-Lambda app",
+  "author": "grassjelly",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "pubnub": "^4.20.1"
+  }
+}
