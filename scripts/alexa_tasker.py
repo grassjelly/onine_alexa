@@ -58,6 +58,9 @@ class MySubscribeCallback(SubscribeCallback):
         elif action == 2:
             print("launching soda task")
             os.system("rosrun onine_apps sodatask.py")
+        elif action == 3:
+            print("launching snap task")
+            os.system("rosrun onine_apps snaptask.py")
         pass  # Handle new message stored in message.message
  
  
