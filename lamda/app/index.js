@@ -17,7 +17,8 @@ exports.handler = function(event, context, callback) {
 const responseArr = [
     'Hi, You can ask me to feed the fish, get you a soda, or check out what\'s happening in the house!',
     'Okay! Moving the robot to feed the fish',
-    'Okay! Moving the robot to get you a soda'
+    'Okay! Moving the robot to get you a soda',
+    'Okay! Moving the robot to the living room'
 ];
 
 const handlers = {
@@ -30,6 +31,9 @@ const handlers = {
     },
     'GetSodaIntent': function () {
         this.emit('SendToRobot', 2);
+    },
+    'SnapLivingRoomIntent': function () {
+        this.emit('SendToRobot', 3);
     },
     'AMAZON.HelpIntent': function () {
         const speechOutput = 'Hello I am Onine';

@@ -4,3 +4,6 @@ FeedFishIntent to feed the fish
 GetSodaIntent get a soda
 GetSodaIntent get me a soda
 GetSodaIntent to get me a soda
+SnapLivingRoomIntent what's happening in the living room
+SnapLivingRoomIntent take a picture of the living room
+SnapLivingRoomIntent who's in the living room
