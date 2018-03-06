@@ -28,6 +28,7 @@ const handlers = {
         //this is O'nine's default response when the skill is called yet no Intent matched
         const speechOutput = responseArr[0];
         this.response.speak(speechOutput);
+        this.emit(':responseReady');
     },
     'FeedFishIntent': function () {
         //tell MQTT broker that user wants to feed the fish 
